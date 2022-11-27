@@ -1,3 +1,17 @@
+/* Global styles */
+
 body{
     background-color: darkblue;
+}
+
+header {
+    background-color: grey;
+}
+
+main{
+    background-color: white;
+}
+
+footer {
+    background-color: grey;
 }
