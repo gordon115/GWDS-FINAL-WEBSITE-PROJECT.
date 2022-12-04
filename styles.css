@@ -73,3 +73,9 @@ footer {
     flex-wrap: wrap;
     display: block;
 }
+
+.image-worksheet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
