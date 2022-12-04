@@ -26,6 +26,7 @@ main {
     text-align: center;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -36,6 +37,10 @@ footer {
     padding: 20px;
     margin-top: auto;
 
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* section styles */
@@ -78,4 +83,25 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+}
+
+.carp-intro{
+    display :flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.carp-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.UX-p {
+    margin-bottom: 30px;
 }
