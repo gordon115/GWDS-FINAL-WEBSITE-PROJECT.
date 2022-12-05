@@ -3,7 +3,7 @@
 body{
     background-color: #00203FFF;
     min-height: 100vh; 
-    display:flex;
+     display:flex; 
     flex-direction: column;
 }
 
@@ -41,9 +41,12 @@ footer {
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
 }
 
 /* section styles */
+
+
 
 .padded-carp {
     padding-left: 25;
@@ -57,7 +60,21 @@ p {
     padding-bottom: 20px;
     padding-top: 10px;
     padding-left: 25px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    
 }
+
+.padded-type:hover {
+    transform: scale(1.5); 
+}
+
 .poster_items1 {
     display: flex;
     float: left;
@@ -73,12 +90,16 @@ p {
 
 }
 
-.image-grid {
-    columns: 4;
+ .image-grid {
     display: flex;
     flex-wrap: wrap;
-    display: block;
+
 }
+
+.image-grid > div {
+    flex: 25%;
+}
+
 
 .image-worksheet {
     display: flex;
@@ -106,3 +127,4 @@ p {
 .UX-p {
     margin-bottom: 30px;
 }
+
